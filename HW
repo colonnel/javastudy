@@ -1,0 +1,71 @@
+package com.company;
+
+import java.util.Random;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+
+       /* System.out.println("Домашнее задание №1:");
+        System.out.println("");
+        char c1 = '7';
+        int i1 = (int) c1;
+        System.out.println("Преобразование char в int " +i1);
+        System.out.println("---------");
+        System.out.println("");
+
+        double d1 = 345.4521;
+        float f1 = (float) d1;
+        System.out.println("Преобразование double в float " +f1);
+        System.out.println("---------");
+        System.out.println("");
+
+        String str1 = "123789";
+        int i2 = new Integer(str1);
+        System.out.println("Преобразование String в int " +i2);
+        System.out.println("---------");
+        System.out.println("");
+
+        String str2 = "123.789";
+        double d2 = Double.parseDouble(str2);
+        System.out.println("Преобразование String в double " +d2);
+        System.out.println("---------");
+        System.out.println("");
+
+        double d3 = 1586.586;
+        String str3 = Double.toString(d3);
+        System.out.println("Преобразование double в String " +str3);
+        System.out.println("---------");*/
+
+        //--------------
+
+        /*Random r = new Random();
+        int a = r.nextInt(12) + 1;
+        if (a == 12 || a >= 1 && a <= 2) {
+            System.out.println("\nЗима");
+        } else if (a >= 3 && a <= 5) {
+            System.out.println("\nВесна");
+        } else if (a >= 6 && a <= 8) {
+            System.out.println("\nЛето");
+        } else if (a >= 9 && a <= 11) {
+            System.out.println("\nОсень");
+         }*/
+
+        //-----------------
+        Random r = new Random();
+        int x = r.nextInt();
+
+        if (x < 0) {
+            int y = x;
+            System.out.println("y = " + y);
+        } else if (x >= 0 && x < 30) {
+            int y = 0;
+            System.out.println("y = " + y);
+        } else if (x > 30) {
+            int y = x * 2;
+            System.out.println(" y = " + y);
+        }
+
+    }
+}
